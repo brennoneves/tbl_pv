@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="VILAVELHA"
+  DTS:DTSID="{9CC6F3F9-BBB5-42DC-9CC4-AFA5FC1936B1}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=VILAVELHA;User ID=SA;Initial Catalog=PBS_FARMACRO_DADOS;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAANJrfHxbf0GDq+dda/Sp7gAAAAACAAAAAAADZgAAwAAAABAAAAD6TkXHs5ffBCDkIyECH42BAAAAAASAAACgAAAAEAAAAJEonueDpHlRD3GEoFJEFzpwAAAAB3w3ogERskId9ynbsWDJPWopy0CJ1+tCHJI6oPPofkxDeAwyy0xqbeLjtYt80YtBTWpe+1Lsaz7jI1iDXuSM4ZAyhlwQHjfAhFFOpEjUuZAwULb2J6+Tn52aYrSkPwpz409mAVbcbruLgROrNZgzexQAAACvnHFiRHKtlAM4Wgjal88rqo6Nzw==</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

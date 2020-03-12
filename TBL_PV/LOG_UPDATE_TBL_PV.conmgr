@@ -1,0 +1,131 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LOG_UPDATE_TBL_PV"
+  DTS:DTSID="{D162F0C9-D03D-49B0-9D07-58390FA38A80}"
+  DTS:CreationName="FLATFILE">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Format="Delimited"
+      DTS:LocaleID="1046"
+      DTS:HeaderRowDelimiter="_x000D__x000A_"
+      DTS:ColumnNamesInFirstDataRow="True"
+      DTS:RowDelimiter=""
+      DTS:TextQualifier="_x003C_none_x003E_"
+      DTS:CodePage="1252"
+      DTS:ConnectionString="C:\LOG\TBL_PV\UPDATE_TBL_PV.txt">
+      <DTS:FlatFileColumns>
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="131"
+          DTS:DataPrecision="15"
+          DTS:TextQualified="True"
+          DTS:ObjectName="PRODUTO"
+          DTS:DTSID="{A7E117AD-9DBC-4E1C-9F5C-7514F3DEB038}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="131"
+          DTS:DataPrecision="15"
+          DTS:DataScale="2"
+          DTS:TextQualified="True"
+          DTS:ObjectName="PRECO_MAXIMO"
+          DTS:DTSID="{F857F7AB-163E-41A4-B0D3-A65FC30E156C}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="131"
+          DTS:DataPrecision="15"
+          DTS:DataScale="2"
+          DTS:TextQualified="True"
+          DTS:ObjectName="PRECO_FABRICA"
+          DTS:DTSID="{2E29BAFB-16B2-499C-8DA3-FB2CC001959C}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="131"
+          DTS:DataPrecision="15"
+          DTS:DataScale="2"
+          DTS:TextQualified="True"
+          DTS:ObjectName="PRECO_VENDA"
+          DTS:DTSID="{5D5088CA-F127-49FC-93EF-ED3177B1DC46}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="135"
+          DTS:TextQualified="True"
+          DTS:ObjectName="DATA_INCLUSAO"
+          DTS:DTSID="{208D6268-53DF-42C9-A475-4FE53ADC2179}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="131"
+          DTS:DataPrecision="15"
+          DTS:TextQualified="True"
+          DTS:ObjectName="PRODUTO_PV"
+          DTS:DTSID="{11988C89-2C51-4759-A61F-61032046BCF6}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="131"
+          DTS:DataPrecision="15"
+          DTS:TextQualified="True"
+          DTS:ObjectName="PRECO_MAXIMO_PV"
+          DTS:DTSID="{5D7D5D72-B847-444B-8366-1B48685A1593}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="131"
+          DTS:DataPrecision="15"
+          DTS:DataScale="2"
+          DTS:TextQualified="True"
+          DTS:ObjectName="PRECO_FABRICA_PV"
+          DTS:DTSID="{B3D1D38F-A4AF-4D08-A300-3F19B1E51C47}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="131"
+          DTS:DataPrecision="15"
+          DTS:DataScale="2"
+          DTS:TextQualified="True"
+          DTS:ObjectName="PRECO_VENDA_PV"
+          DTS:DTSID="{FFEFFBE5-46C4-40FB-A637-552994DB3955}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="135"
+          DTS:TextQualified="True"
+          DTS:ObjectName="DATA_INCLUSAO_PV"
+          DTS:DTSID="{99C54F33-FF7B-498F-9563-D3DC1E0B2A4A}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:MaximumWidth="3"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="ATUALIZAR"
+          DTS:DTSID="{2C82A427-1E9E-4E8B-94A0-E7D2256C2AB4}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x000D__x000A_"
+          DTS:MaximumWidth="3"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="MUDAR"
+          DTS:DTSID="{FDB7A050-15A1-47C9-828E-5C69EB7FCD7A}"
+          DTS:CreationName="" />
+      </DTS:FlatFileColumns>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
