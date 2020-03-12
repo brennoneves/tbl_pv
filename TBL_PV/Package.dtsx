@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="10"
-  DTS:VersionGUID="{56D10EFF-EA17-45F6-B526-DE1625B6ECED}">
+  DTS:VersionBuild="11"
+  DTS:VersionGUID="{B7AE1917-FA1B-47F7-A89C-F29092FA3186}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -565,38 +565,6 @@ ORDER BY PRODUTO</property>
                       name="Entrada de Destino OLE DB">
                       <inputColumns>
                         <inputColumn
-                          refId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\INSERT TBL_PV.Inputs[Entrada de Destino OLE DB].Columns[PRODUTO]"
-                          cachedDataType="numeric"
-                          cachedName="PRODUTO"
-                          cachedPrecision="15"
-                          cachedSortKeyPosition="1"
-                          externalMetadataColumnId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\INSERT TBL_PV.Inputs[Entrada de Destino OLE DB].ExternalColumns[PRODUTO_PV]"
-                          lineageId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\LEFT JOIN.Outputs[Saída da Junção de Mesclagem].Columns[PRODUTO]" />
-                        <inputColumn
-                          refId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\INSERT TBL_PV.Inputs[Entrada de Destino OLE DB].Columns[PRECO_MAXIMO]"
-                          cachedDataType="numeric"
-                          cachedName="PRECO_MAXIMO"
-                          cachedPrecision="15"
-                          cachedScale="2"
-                          externalMetadataColumnId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\INSERT TBL_PV.Inputs[Entrada de Destino OLE DB].ExternalColumns[PRECO_MAXIMO_PV]"
-                          lineageId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\LEFT JOIN.Outputs[Saída da Junção de Mesclagem].Columns[PRECO_MAXIMO]" />
-                        <inputColumn
-                          refId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\INSERT TBL_PV.Inputs[Entrada de Destino OLE DB].Columns[PRECO_FABRICA]"
-                          cachedDataType="numeric"
-                          cachedName="PRECO_FABRICA"
-                          cachedPrecision="15"
-                          cachedScale="2"
-                          externalMetadataColumnId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\INSERT TBL_PV.Inputs[Entrada de Destino OLE DB].ExternalColumns[PRECO_FABRICA_PV]"
-                          lineageId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\LEFT JOIN.Outputs[Saída da Junção de Mesclagem].Columns[PRECO_FABRICA]" />
-                        <inputColumn
-                          refId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\INSERT TBL_PV.Inputs[Entrada de Destino OLE DB].Columns[PRECO_VENDA]"
-                          cachedDataType="numeric"
-                          cachedName="PRECO_VENDA"
-                          cachedPrecision="15"
-                          cachedScale="2"
-                          externalMetadataColumnId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\INSERT TBL_PV.Inputs[Entrada de Destino OLE DB].ExternalColumns[PRECO_VENDA_PV]"
-                          lineageId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\LEFT JOIN.Outputs[Saída da Junção de Mesclagem].Columns[PRECO_VENDA]" />
-                        <inputColumn
                           refId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\INSERT TBL_PV.Inputs[Entrada de Destino OLE DB].Columns[MUDAR]"
                           cachedCodepage="1252"
                           cachedDataType="str"
@@ -604,14 +572,39 @@ ORDER BY PRODUTO</property>
                           cachedName="MUDAR"
                           externalMetadataColumnId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\INSERT TBL_PV.Inputs[Entrada de Destino OLE DB].ExternalColumns[ATUALIZAR]"
                           lineageId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\MUDAR.Outputs[Saída de Coluna Derivada].Columns[MUDAR]" />
+                        <inputColumn
+                          refId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\INSERT TBL_PV.Inputs[Entrada de Destino OLE DB].Columns[PRODUTO_PV]"
+                          cachedDataType="numeric"
+                          cachedName="PRODUTO_PV"
+                          cachedPrecision="15"
+                          externalMetadataColumnId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\INSERT TBL_PV.Inputs[Entrada de Destino OLE DB].ExternalColumns[PRODUTO_PV]"
+                          lineageId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\LEFT JOIN.Outputs[Saída da Junção de Mesclagem].Columns[PRODUTO_PV]" />
+                        <inputColumn
+                          refId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\INSERT TBL_PV.Inputs[Entrada de Destino OLE DB].Columns[PRECO_MAXIMO_PV]"
+                          cachedDataType="numeric"
+                          cachedName="PRECO_MAXIMO_PV"
+                          cachedPrecision="15"
+                          externalMetadataColumnId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\INSERT TBL_PV.Inputs[Entrada de Destino OLE DB].ExternalColumns[PRECO_MAXIMO_PV]"
+                          lineageId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\LEFT JOIN.Outputs[Saída da Junção de Mesclagem].Columns[PRECO_MAXIMO_PV]" />
+                        <inputColumn
+                          refId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\INSERT TBL_PV.Inputs[Entrada de Destino OLE DB].Columns[PRECO_FABRICA_PV]"
+                          cachedDataType="numeric"
+                          cachedName="PRECO_FABRICA_PV"
+                          cachedPrecision="15"
+                          cachedScale="2"
+                          externalMetadataColumnId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\INSERT TBL_PV.Inputs[Entrada de Destino OLE DB].ExternalColumns[PRECO_FABRICA_PV]"
+                          lineageId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\LEFT JOIN.Outputs[Saída da Junção de Mesclagem].Columns[PRECO_FABRICA_PV]" />
+                        <inputColumn
+                          refId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\INSERT TBL_PV.Inputs[Entrada de Destino OLE DB].Columns[PRECO_VENDA_PV]"
+                          cachedDataType="numeric"
+                          cachedName="PRECO_VENDA_PV"
+                          cachedPrecision="15"
+                          cachedScale="2"
+                          externalMetadataColumnId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\INSERT TBL_PV.Inputs[Entrada de Destino OLE DB].ExternalColumns[PRECO_VENDA_PV]"
+                          lineageId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\LEFT JOIN.Outputs[Saída da Junção de Mesclagem].Columns[PRECO_VENDA_PV]" />
                       </inputColumns>
                       <externalMetadataColumns
                         isUsed="True">
-                        <externalMetadataColumn
-                          refId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\INSERT TBL_PV.Inputs[Entrada de Destino OLE DB].ExternalColumns[ID]"
-                          dataType="numeric"
-                          name="ID"
-                          precision="15" />
                         <externalMetadataColumn
                           refId="Package\FLUXO DE CONTROLE DO QUE FOI ALTERADO\TBL_PV\INSERT TBL_PV.Inputs[Entrada de Destino OLE DB].ExternalColumns[PRODUTO_PV]"
                           dataType="numeric"
